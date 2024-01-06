@@ -1,0 +1,259 @@
+@import url("./css/satoshi.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+*{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+
+}
+
+button{
+  font-family: 'Satoshi-Regular' ,sans-serif;
+  font-weight: 650 !important;
+  border: none;
+  margin-top: 20px;
+}
+nav{
+  width: 85%;
+  height: 40px;
+  background-color: #1C1B24;
+}
+.video_handler {
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  position: absolute;
+}
+.avatar{
+  border-radius: 99px;
+  display: inline-block;
+  margin-bottom: 19px;
+  width: 128px;
+}
+.ava-block{
+  display: inline-block;
+}
+.buttons{
+  margin-right: 10px;
+  transition: 2s;
+}
+.badge{
+  width: 24px;
+  height: 24px;
+  margin-left: 3px;
+}
+
+#video_player {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.ml10px {
+  margin-left: 10px;
+}
+.img32px {
+  width: 32px;
+  height: 32px;
+}
+.b25px {
+  border-radius: 25px;
+}
+
+.clickToEnter {
+  font-family: 'Satoshi-Regular' ,sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  cursor: auto;
+  z-index: 9999;
+  backdrop-filter: blur(15px);
+  transition: .2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.71);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+@keyframes click_Enter {
+  0%{
+    color: white;
+    transition: .2s ease-in-out;
+  }
+  50%{
+    color: purple;
+    transition: .2s ease-in-out;
+  }
+  100%{
+    color: white;
+  }
+}
+.Chinar {
+  width: auto;
+  height: auto;
+  min-width: 100px;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: rgba(19, 23, 40, 0.43) !important;
+  transition: .2s ease-in-out;
+  transition-delay: initial;
+  backdrop-filter: blur(99px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: AllAnim 3s ease-out;
+}
+
+.jcenter {
+  justify-content: center;
+}
+
+.tcenter {
+  text-align: center;
+}
+.lang {
+  border-radius: 999px;
+  transition: .2s;
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+  
+}
+.center{
+  align-items: center;
+}
+code{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: solid 1px rgba(196, 186, 236, 0.62);
+  background-color: rgba(86, 66, 114, 0.41);
+  backdrop-filter: blur(10px);
+}
+@keyframes AllAnim {
+  0%{
+    margin-top: 10px;
+    filter: blur(999px);
+  }
+  100%{
+    filter: blur(0px);
+    margin-top: 0px;
+  }
+}
+.discordb {
+  display: flex;
+  transition: 0.2s ease-in-out;
+  border-radius: .75rem;
+  padding: 1rem;
+  background-color: #35384ccc;
+  width: 151px;
+  height: 64px;
+}
+
+.pixelb:hover,
+.discordb:hover,
+.githubb:hover,
+.telegab:hover {
+  background-color: #52536a;
+}
+.githubb {
+  display: flex;
+  transition: 0.2s ease-in-out;
+  border-radius: .75rem;
+  padding: 1rem;
+  background-color: #35384ccc;
+  width: 146px;
+  height: 64px;
+}
+.dtext {
+  font-size: 1.45rem;
+  color: rgb(255, 255, 255);
+  text-shadow: rgba(255, 255, 255, 0.39) 0px 0px 16.5px;
+  margin-left: 4px;
+  margin-bottom: 1px;
+}
+.mus-control{
+  align-items: initial;
+
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.lol{
+  font-size: 31px;
+  margin-bottom: 7px;
+  font-family: 'Nunito', sans-serif;
+}
+.username{
+  font-size: 12px;
+  margin-bottom: 4px;
+  font-family: 'Nunito', sans-serif;
+}
+.text-cte{
+  animation: click_Enter 1s infinite;
+  transition: .2s ease-in-out;
+}
+.full-size-btn{
+  width: 200px !important;
+}
+.snow{
+  z-index: 88;
+}
+.about-me{
+  width: auto;
+  height: auto;
+  min-width: 30px;
+  max-width: 1000px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.43) !important;
+  transition: .2s ease-in-out;
+  transition-delay: initial;
+  backdrop-filter: blur(30px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  align-items: center;
+  border: #52536a 1px solid;
+  justify-content: center;
+  animation: panelAnim ease-in-out infinite 1s;
+  font-size: 17px;
+
+}
+@media (max-width:699px){
+  .about-me{
+    transition: .2s ease-in-out;
+    font-size: 13px;
+  }
+  .Chinar{
+    transition: .2s ease-in-out;
+    width: 390px;
+  }
+}
+.satoshi{
+  font-family: "Satoshi-Light";
+}
