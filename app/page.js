@@ -93,14 +93,14 @@ export default function App(){
                         </a>
                         <a style={inline} target="_blank">
                             <button className="Github githubb inline ml10px center"
-                                    onClick={() => window.open('https://usesaturn.xyz', '_blank')}>
+                                    onClick={() => window.open('https://github.com/KilDoomWise', '_blank')}>
                                 <Image src={github} className="img32px b25px"/>
                                 <p className="dtext satoshi">GitHub</p>
                             </button>
                         </a>
                         <a style={inline} target="_blank">
                             <button className="Github githubb ml10px center"
-                                    onClick={() => window.open('https://usesaturn.xyz', '_blank')}>
+                                    onClick={() => window.open('https://open.spotify.com/user/31gy5dcfnoyhfzizny4pnxaxzjre?si=49ca8b9eaa1e43d5', '_blank')}>
                                 <Image src={spotify} className="img32px b25px"/>
                                 <p className="dtext satoshi">Spotify</p>
                             </button>
