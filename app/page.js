@@ -77,8 +77,7 @@ export default function App(){
 
                             <p className="satoshi">
                                 Hi! I am a KilDoom developer from Russia,<br/>
-                                I am the owner of UseSaturn Projects,<br/>
-                                as well as the staff of FruitSpace
+                                I am the owner of UseSaturn Projects
                             </p>
 
 
